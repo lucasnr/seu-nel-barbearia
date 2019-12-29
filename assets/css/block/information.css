@@ -1,0 +1,13 @@
+.information {
+  margin: 2em 0; }
+  .information .information__title {
+    color: #FDFDFD;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .information .information__item {
+    color: #DCDCDC;
+    line-height: 2; }
+
+/*# sourceMappingURL=information.css.map */

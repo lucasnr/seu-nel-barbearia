@@ -1,0 +1,16 @@
+.information {
+    margin: 2em 0;
+
+    .information__title {
+        color: #FDFDFD;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .information__item {
+        color: #DCDCDC;
+        line-height: 2;
+    }
+}

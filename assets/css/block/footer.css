@@ -1,0 +1,10 @@
+.footer {
+  background-color: #3A3A3A;
+  color: #DEDEDE;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  padding: 1em 2em; }
+  .footer .footer__author {
+    font-size: 1em;
+    text-align: center; }
+
+/*# sourceMappingURL=footer.css.map */
