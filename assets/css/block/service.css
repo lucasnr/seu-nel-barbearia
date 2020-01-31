@@ -4,27 +4,28 @@
     border-bottom: 3px solid #3A3A3A;
     color: #3A3A3A;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     margin: .5em;
     padding-bottom: 10px;
     text-transform: uppercase; }
-  .service .service__photo {
-    border-radius: 50%;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-    height: 264px;
-    margin: 1em auto;
-    width: 264px; }
-  @media screen and (min-width: 768px) {
-    .service .service__photo-list {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center; }
-    .service .service__title {
-      font-size: 3em; }
-    .service .service__photo {
-      margin: 5px; } }
+  .service .service__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    .service .service__list .service__list__item {
+      border: 16px solid #3A3A3A;
+      border-radius: 3px;
+      box-shadow: inset 0px 0px 3px #3A3A3A;
+      margin: 5px;
+      padding: 16px;
+      position: relative; }
+      .service .service__list .service__list__item .service__photo {
+        border-radius: 2px;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        height: calc(220px * 1.45);
+        width: 220px; }
 
 /*# sourceMappingURL=service.css.map */
